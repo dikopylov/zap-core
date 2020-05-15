@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-auth = {extras = ["with_social"],version = "*"}
+djangorestframework-jwt = "*"
+django-filter = "*"
+boto3 = "*"
+django-storages = "*"
+django-environ = "*"
+drf-yasg = "*"
+psycopg2 = "*"
+
+[requires]
+python_version = "3.7"
